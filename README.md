@@ -230,3 +230,10 @@ Suggested screenshots:
 - Add richer debate analytics and export features.
 - Add conversation memory persistence across requests.
 - Add structured citations to each policy-grounded claim.
+
+
+Demo video:
+https://drive.google.com/file/d/1cwwpu-AX19AvL2sAJ5i5dLO52c6W4SaO/view?usp=sharing
+
+Live video:
+https://drive.google.com/file/d/1uQ1k9fj9QF5fzQllIZWAaUknqM5_TC0e/view?usp=sharing
