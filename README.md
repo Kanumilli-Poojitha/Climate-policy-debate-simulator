@@ -62,18 +62,18 @@ flowchart LR
     API[FastAPI API]
     RAG[Policy RAG Service]
     ORCH[Debate Orchestrator]
-    AGT[Debater Agent(s)]
+    AGT[Debater Agents]
   end
   subgraph Model
     OLLAMA[Ollama LLM Service]
-    MODELS[(phi3, ...)]
+    MODELS[Models]
   end
   UI -->|POST /api/v1/debate/start| API
   API --> ORCH
   ORCH --> RAG
   RAG --> ORCH
   ORCH --> AGT
-  AGT -->|HTTP /generate| OLLAMA
+  AGT -->|HTTP generate| OLLAMA
   OLLAMA --> AGT
   AGT --> ORCH
   ORCH --> API
