@@ -1,0 +1,14 @@
+__pycache__/
+.pytest_cache/
+.venv/
+venv/
+*.pyc
+*.pyo
+*.pyd
+env/
+.env
+ollama_data/
+*.sqlite3
+dist/
+build/
+/.vscode/
